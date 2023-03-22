@@ -21,6 +21,7 @@ li {
   font-size: 15px;
   line-height: 18px;
   margin: 0;
+  color: #454545;
 }
 
 li:first-letter {
@@ -39,6 +40,7 @@ li:first-letter {
 .weather-app {
   padding: 20px;
   border: 1px solid lightgrey;
+  background: #cdd0d4;
   border-radius: 5px;
 }
 
@@ -56,11 +58,13 @@ li:first-letter {
   font-size: 48px;
   font-weight: 400;
   line-height: 1;
+  color: #454545;
 }
 
 .weather-temperature .active {
   color: black;
   cursor: default;
+  color: #454545;
 }
 
 .weather-temperature .main-weather-units {
@@ -69,7 +73,7 @@ li:first-letter {
 
 .forecast-overview {
   text-align: center;
-  margin-top: 40px;
+  margin-top: 20px;
 }
 
 .forecast-day {
@@ -79,8 +83,13 @@ li:first-letter {
 
 .forecast-temperature {
   font-size: 13px;
+  color: #454545;
 }
 
 .forecast-temperature-min {
   opacity: 0.6;
+}
+
+a {
+  text-decoration: none;
 }
